@@ -17,7 +17,7 @@ uint8_t deleteFingerprint();
 
 String DigitalSerialNumber = "";
 
-const char *apiUrl = "http://192.168.100.21/cloudfingerprintproject/api.php";  
+const char *apiUrl = "http://192.168.100.21/cloudfingerprintproject/api.php";  //add cloud ip address here. didn't updated github repo. assume the ip is similar to connection.php
 const char *ap_ssid = "ESP32-Config", *ap_password = "123456789";
 WebServer server(80);
 String savedSSID = "", savedPassword = "";
